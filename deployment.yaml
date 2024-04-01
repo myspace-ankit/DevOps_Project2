@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-   name: demo-service
+  name: demo-service
 spec: 
   type: NodePort
   selector:
@@ -29,7 +29,7 @@ spec:
     spec:
      containers:
       - name: train-schedule
-        image: sk260/edureka-project2:latest
+        image: ankit8608/project2:latest
         imagePullPolicy: Always 
         ports: 
          - containerPort: 8080
