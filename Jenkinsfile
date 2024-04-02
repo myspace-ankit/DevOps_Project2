@@ -1,8 +1,8 @@
 pipeline{
     agent any
     tools{
-        jdk 'JDK 8'
-        gradle 'My Gradle'
+        jdk 'myJava'
+        gradle 'myGradle'
     } 
     stages{
         stage('Delete Workspace'){
